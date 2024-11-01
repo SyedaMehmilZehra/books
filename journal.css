@@ -1,0 +1,202 @@
+.custom-btn-primary {
+    border-radius: 2px;
+    width: 250px;
+    height: 60px;
+    font-weight: bold;
+    font-family: roboto;
+    
+}
+
+.custom-btn-primary:hover {
+    background-color: white !important;
+    color: #0d6efd !important;
+}
+
+.number {
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 20px; 
+    font-family: roboto;
+
+}
+.dropdown-menu {
+    display: none; 
+}
+.dropdown:hover .dropdown-menu {
+    display: block; 
+}
+.pagniation{
+    margin-top: 20px; 
+    font-family: roboto;
+
+}
+.custom-badge{
+    background-color: #04384b;
+    border-radius: 0px;
+}
+.arrow {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 10px solid black; 
+    margin-left: 120px;
+    transition: transform 0.2s; 
+}
+.arrow.down {
+    transform: rotate(0deg); 
+}
+.arrow.up {
+    transform: rotate(180deg); 
+}
+.hr-width{
+width: 270px;
+}
+.publication{
+    margin-left: 90px;
+}
+
+
+
+
+.arrow1 {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 10px solid black; 
+    margin-left: 180px;
+    transition: transform 0.2s; 
+}
+.arrow1.down {
+    transform: rotate(0deg); 
+}
+.arrow1.up {
+    transform: rotate(180deg); 
+}
+
+
+
+
+.arrow2 {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 10px solid black; 
+    margin-left: 155px;
+    transition: transform 0.2s; 
+}
+.arrow2.down {
+    transform: rotate(0deg); 
+}
+.arrow2.up {
+    transform: rotate(180deg); 
+}
+
+
+.arrow3 {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 10px solid black; 
+    margin-left: 195px;
+    transition: transform 0.2s; 
+}
+.arrow3.down {
+    transform: rotate(0deg); 
+}
+.arrow3.up {
+    transform: rotate(180deg);
+}
+
+.arrow4 {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 10px solid black;
+    margin-left: 175px;
+    transition: transform 0.2s; 
+
+    cursor: pointer;
+            display: inline-block;
+            
+}
+.arrow4.down {
+    transform: rotate(0deg); 
+}
+.arrow4.up {
+    transform: rotate(180deg); 
+}
+
+
+
+.horizontal-menu {
+    display: flex;
+    gap: 20px; 
+}
+
+.horizontal-menu p {
+    margin: 0; 
+}
+
+
+
+
+.alert.custom-alert {
+    background-color: #04384b;
+}
+
+.authors,
+        .indexing,
+        .table {
+            display: none; 
+        }
+
+        .book-bg {
+            background-image: url('bookbg.jpeg');
+            background-size: cover; 
+            background-position: center; 
+            height: 500px; 
+        }
+        
+        .journal-bg {
+            background-image: url('journals.jpeg');
+            background-size: cover; 
+            background-position: center; 
+            height: 600px; 
+        }
+        
+/* blog */
+.card-journals {
+    width: 300px;
+    height: 400px;
+    background-color: white;
+    transition: background-color 0.3s, box-shadow 0.3s;
+    box-shadow: none;
+    padding: 20px; 
+    border-radius: 8px;
+}
+
+.card-journals:hover {
+    background-color: rgba(240, 240, 240, 1);
+    box-shadow: 0 4px 20px rgba(255, 255, 255, 0.7); 
+}
+@media (max-width: 768px) {
+    .card-journals {
+        width: 90%; /* Adjust width for mobile devices */
+    }
+}
+
+/*         
+modal */
+
+
+

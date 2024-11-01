@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solutions</title>
+    <link rel="stylesheet" type="text/css" href="assets/style.css">
+    <link rel="stylesheet" type="text/css" href="form.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<style>
+           body {
+        background-color: blue;
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif;
+    }
+    .card {
+        width: 40rem;
+        margin: 70px auto;
+        padding: 30px;
+        border-radius: 20px;
+        background-color: white; /* Added for contrast */
+    }
+    .danger {
+        color: red;
+    }
+    .form-control {
+        width: calc(100% - 20px);
+        padding: 10px;
+        margin-top: 5px;
+    }
+    label {
+        display: block;
+        margin-bottom: 5px; /* Space between label and input */
+    }
+    @media (max-width: 768px) {
+        .card {
+            width: 90%; /* Responsive width for mobile */
+            margin-top: 20px;
+        }
+    }
+
+    </style>
+
+<!-- <body style="background-color:blue;">
+<center>
+<div class="card" style="width: 40rem; margin-top:70px; padding:30px; border-radius:20px">
+  <div class="card-body">
+  <form action="">
+<img src="images/Logo.png" alt="LOGO" style="width:60px; height:40px; margin-bottom:20px">
+<h2>Contact Form for Manuscript Authors</h2>
+
+<br>
+
+<div>
+<div style="margin-left:-400px;">
+<label>Name and surname</label><span class="danger">*</span>
+</div>
+<input type="text" name="name" class="form-control">
+</div>
+<br>
+
+<div>
+<div style="margin-left:-500px;">
+<label>Email</label><span class="danger">*</span>
+</div>
+<input type="text" name="name" class="form-control">
+</div>
+<br>
+
+
+<div>
+<div style="margin-left:-485px;">
+<label>Country</label>
+</div>
+<select name="country" id="country" placeholder="Select your answer" style="margin-left:-310px;">
+    <option value="">---</option>
+    <option value="afghanistan">Afghanistan</option>
+    <option value="Aland">Book Services</option>
+    <option value="conferenceservice">Conference Services</option>
+    <option value="whilelabelpublishinghouse">White Label Publishing House</option>
+    <option value="otherinquires">Other inquires</option>
+</select>
+</div>
+<br>
+
+
+<div>
+<div style="margin-left:-420px;">
+<label>Publication Type</label><span class="danger">*</span>
+</div>
+<select name="publication" id="publication" class="form-control" style="margin-left:-0px;">
+    <option value="">Select an option</option>
+    <option value="journal">Journal</option>
+    <option value="conferenceproceedings">Conference Proceedings</option>
+    <option value="book">Book</option>
+    <option value="other">Other</option>
+</select>
+</div>
+<br>
+
+<div>
+<div style="margin-left:-190px;">
+<label>Publication Title (Journal/Book/Conference name)</label><span class="danger">*</span>
+</div>
+<input type="text" name="publication" class="form-control">
+</div>
+<br>
+
+<div>
+<div style="margin-left:-210px;">
+<label>Publication URL (Journal/Book/Conference URL)</label>
+</div>
+<input type="text" name="publicationurl" class="form-control">
+</div>
+<br>
+
+
+<div>
+<div style="margin-left:-470px;">
+<label>Comments</label>
+</div>
+<input type="text" name="comment" class="form-control">
+</div>
+<br>
+
+<button type="button" class="btn btn-secondary">Save as draft</button>
+<button type="button" class="btn btn-primary">Submit</button>
+
+<br>
+<br>
+<p style="text-align:center; color:#4d4d4d">Never submit passwords or credit card details through WorkForms</p>
+
+</form>
+
+  </div>
+</div>
+</center> -->
+
+
+<center>
+<div class="card">
+  <div class="card-body">
+    <form action="">
+      <!-- <img src="images/Logo.png" alt="LOGO" style="width:60px; height:40px; margin-bottom:20px"> -->
+      <div class="container-fluid">
+        <a href="index.html" style="text-decoration: none; color: blue; width:60px; height:40px; margin-bottom:20px"">
+          <h5 style="font-weight: bold;">Logo Here</h5>
+      </a>
+    
+      <h2>Contact Form for Manuscript Authors</h2>
+<br>
+      <div>
+        <label>Name and surname<span class="danger">*</span></label>
+        <input type="text" name="name" class="form-control">
+      </div>
+      <br>
+      <div>
+        <label>Email<span class="danger">*</span></label>
+        <input type="text" name="email" class="form-control">
+      </div>
+      <br>
+      <div>
+        <label>Country</label>
+        <select name="country" id="country" class="form-control">
+            <option value="">---</option>
+            <option value="afghanistan">Afghanistan</option>
+            <option value="Aland">Book Services</option>
+            <option value="conferenceservice">Conference Services</option>
+            <option value="whilelabelpublishinghouse">White Label Publishing House</option>
+            <option value="otherinquires">Other inquiries</option>
+        </select>
+      </div>
+      <br>
+      <div>
+        <label>Publication Type<span class="danger">*</span></label>
+        <select name="publication" id="publication" class="form-control">
+            <option value="">Select an option</option>
+            <option value="journal">Journal</option>
+            <option value="conferenceproceedings">Conference Proceedings</option>
+            <option value="book">Book</option>
+            <option value="other">Other</option>
+        </select>
+      </div>
+      <br>
+      <div>
+        <label>Publication Title (Journal/Book/Conference name)<span class="danger">*</span></label>
+        <input type="text" name="publication" class="form-control">
+      </div>
+      <br>
+      <div>
+        <label>Publication URL (Journal/Book/Conference URL)</label>
+        <input type="text" name="publicationurl" class="form-control">
+      </div>
+      <br>
+      <div>
+        <label>Comments</label>
+        <input type="text" name="comment" class="form-control">
+      </div>
+      <br>
+      <button type="button" class="btn btn-secondary">Save as draft</button>
+      <button type="button" class="btn btn-primary">Submit</button>
+
+      <p style="text-align:center; color:#4d4d4d; margin-top:20px;">Never submit passwords or credit card details through WorkForms</p>
+    </form>
+  </div>
+</div>
+</center>
+<br><br><br>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+</body>
+</html>
+

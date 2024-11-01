@@ -1,0 +1,534 @@
+*{padding:0; margin: 0; box-sizing: border-box;}
+
+body{
+    overflow-x: hidden;
+}
+h1{
+       font-family: "Poppins", sans-serif;
+        font-weight: 100;
+        font-style: normal;
+      
+}
+h2, h3, h4, h5, h6{
+    font-family: "Poppins", sans-serif;
+ 
+}
+.rounded-navbar {
+    border-radius: 10px; 
+    max-width: 85%; 
+    margin: 0 auto; 
+
+}
+
+.nav-item .rounded-input {
+    border-radius: 30px !important;
+    width: 200px !important;          
+    height: 38px !important; 
+    background-color: blue !important; 
+    color: white !important;         
+}
+
+.nav-item .rounded-input::placeholder {
+    color: white !important; 
+    opacity: 1 !important; 
+}
+
+
+.custom-margin {
+    margin-right: 80px; 
+  }
+  .navbar-nav .nav-item:first-child {
+    margin-left: 80px; 
+}
+.header-banner{
+    margin-right: 100px;
+}
+.banner-heading h1 {
+    font-size: 2.5rem; 
+}
+
+.banner-detail p {
+    font-size: 1rem; 
+    font-family: "Poppins", sans-serif;
+
+}
+
+
+@media (min-width: 992px) { 
+    .navbar-nav .nav-item:first-child {
+        margin-left: 80px; 
+    }
+
+    .header-banner {
+        margin-left: 100px; 
+    }
+  }
+  
+  
+  @media (max-width: 768px) {
+    .custom-margin {
+        margin-right: 10px; 
+    }
+    
+    .navbar-nav .nav-item:first-child {
+        margin-left: 0; 
+    }
+
+
+    .header-banner {
+        margin-left: 10px; 
+    }
+
+    .banner-heading h1 {
+        font-size: 1.5rem; 
+    }
+
+    .banner-detail p {
+        font-size: 0.875rem; 
+        font-family: "Poppins", sans-serif;
+
+    }
+  }
+
+  .custom-button {
+    margin-right: 10px; 
+    width: 220px;
+    font-weight: bold;
+    font-family: "Poppins", sans-serif;
+}
+
+.custom-button1 {
+width: 150px;
+border-radius: 10px !important; 
+overflow: hidden; 
+}
+
+.responsive-logo {
+    max-width: 100%;
+    height: auto;
+    width: 100px; 
+}
+
+@media (max-width: 768px) {
+    .responsive-logo {
+        width: 100px; 
+    }
+}
+
+.header-section {
+    background-image: url('Home-Page-Images-02.png'); 
+    background-size: cover;
+    background-repeat: no-repeat; 
+    padding: 40px 0; 
+    color: white; 
+  }
+  
+  
+  h4{
+    font-family: "Poppins", sans-serif;
+     font-weight: 100;
+     font-style: normal;
+   
+}
+.second-section {
+    justify-content: center; 
+    align-items: center; 
+    text-align: center; 
+  }
+  .custom-hr {
+    width: 15%; 
+    margin: 5px auto; 
+    border: 1px solid black; 
+  }
+
+
+    .hori {
+        display: flex;
+        justify-content: center; 
+        align-items: center; 
+        text-align: center;
+    }
+    .card {
+        width: 18rem;
+        height: 10rem;
+        border-radius: 15px !important; 
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        overflow: hidden; 
+        display: flex; 
+        align-items: stretch; 
+        margin: 0 20px; 
+        
+    }
+    
+    .card-body {
+        display: flex; 
+        align-items: center;
+        padding: 0; 
+    }
+    
+    .card-image {
+        background-color: blue; 
+        width: 40%; 
+        height: 100%; 
+        display: flex; 
+        justify-content: center; 
+        align-items: center; 
+    }
+    
+    .card-image img {
+        max-width: 70%; 
+        height: auto; 
+    }
+    
+    .card-text {
+        margin-left: 20px; 
+        font-weight: bold;
+        color: black; 
+        flex: 1; 
+        background-color: white; 
+    }
+    .image1{
+      
+        width: 200px;   
+    }
+    .image2{
+       
+        width: 200px;   
+    }
+
+    .image3{
+       
+        width: 200px;   
+    }
+    .image4{
+      
+        width: 200px;   
+    }
+
+    .distinct {
+        justify-content: center; 
+        align-items: center; 
+      
+        text-align: center;      }
+    .distribute{
+        justify-content: center; 
+        align-items: center; 
+        
+        text-align: center; 
+     
+    }
+    
+    .dis-publisher {
+        display: flex; 
+        justify-content: center; 
+        align-items: flex-start;
+        gap: 20px; 
+        
+    
+    }
+    .dis-publisher .card{
+        width: 400px;
+        height: 400px;
+    }
+    
+    .no-margin {
+        margin: 0 !important; 
+      }
+      
+      .no-padding {
+        padding: 0 !important; 
+      }
+      
+    .card-img-top {
+        width: 90%; 
+        height: auto; 
+        margin: 10px auto;
+      }
+    .distinct {
+        background-image: url('Group-1-1.jpg');
+        background-repeat: no-repeat;
+        padding: 40px 0; 
+        
+    }    
+    .publish {
+        display: flex; 
+        justify-content: center; 
+        flex-wrap: wrap; 
+    }
+    
+    .publish .card-container {
+        display: flex; 
+        justify-content: flex-start; 
+        width: 100%; 
+    }
+    
+  .publish .card-item {
+
+        flex-direction: column; 
+        align-items: center; 
+        margin: 60px; 
+    }
+    
+    .publish .card {
+        width: 200px; 
+        height: 150px;
+        display: flex; 
+        flex-direction: column; 
+        align-items: center; 
+        text-align: center; 
+        border: 1px solid #ccc; 
+        border-radius: 8px; 
+        padding: 10px; 
+    }
+    
+    .card-img img {
+        max-width: 100%;
+        height: auto; 
+    }
+    
+   .publish h5 {
+        margin: 5px 0;
+        text-align: center; 
+        color:black;
+    }
+    
+    .publish p {
+        margin: 5px 0; 
+        text-align: center;
+        font-weight: normal;
+        color: black;
+    }
+    .content-wrapper {
+        background-image: url('Home-Page-Images-04.png');
+        background-size: cover; 
+        background-position: center;
+        padding: 20px; 
+        text-align: center;
+    }
+    .content-wrapper p{
+    color: white;
+    font-weight: normal;
+    }
+
+    .card3{
+        justify-content: center; 
+        align-items: center; 
+        text-align: center; 
+     
+    }
+    .card{
+        background-color: cadetblue;
+    }
+    
+    .container .card p{
+        font-weight: normal;
+        font-size: small;
+        color: black;
+    }
+    .container .card h6{
+        color: black;
+    }
+    
+    .custom-button2 {
+        width: 200px;
+        border-radius: 10px !important; 
+        overflow: hidden; 
+        }
+    
+        /* footer */
+    /* .footer-section {
+        background-image: url('images/Group-1.jpg'); 
+        background-size: cover; 
+        background-repeat: no-repeat; 
+        padding: 140px 0; 
+      }
+      .sectionlogo img{
+        max-width: 100%;
+        height: auto;
+        width: 150px; 
+        margin-left: 150px;
+        margin-top: -110px;
+
+          }
+
+          .menus{
+            margin-left: 450px;
+            margin-top: -80px;
+
+          }
+          .details{
+            margin-left: 750px;
+            margin-top: -180px;
+
+          }
+          .details p{
+            font-size: 10px;
+            font-weight: normal;
+          }
+
+          .email{
+            margin-left: 1000px;
+            margin-top: -180px;
+
+          }
+          .email p{
+            font-size: small;
+            font-weight: normal;
+          } */
+
+
+          /* end  footer */
+          .card1 .card-body{
+            width: 100px; 
+            display: flex; 
+            flex-direction: column; 
+            align-items: center; 
+            text-align: center; 
+            border: 1px solid #ccc;
+            border-radius: 8px; 
+            padding: 10px; 
+            background-color: white;
+            margin-top: -50px;
+            margin-left: 180px;
+          }
+
+
+
+          .publishing-solution h1{
+            text-align: center;
+            font-family: 'roboto';
+            padding: 2px;
+            
+          }
+          .publish p{
+            font-size: 18px;
+            color: #4d4d4d;
+           padding: 5px;
+          }
+
+          .publish p br {
+            content: ""; 
+            margin: 16px 0; 
+            display: block; 
+        
+        }
+        .academic {
+            display: flex; 
+            justify-content: space-around; 
+            align-items: center; 
+            padding: 50px;
+        }
+
+        .academic > div { 
+            margin: 0 200px; 
+        }
+        
+        .journals, .book {
+            position: relative;
+        }
+        
+        .circle {
+            position: relative;
+            width: 200px; 
+            height: 200px; 
+        }
+        
+        .circle-img {
+            width: 100%; 
+            height: 100%;
+        }
+        
+        .newspaper, .book-img {
+            position: absolute; 
+            top: 50%; 
+            left: 50%;
+            transform: translate(-50%, -50%); 
+            width: 75%;
+            height: auto;
+            z-index: 1; 
+        }
+        .journals .para .para-journal {
+            font-size: 22px;
+            color: black;
+            font-family: 'roboto';
+            text-align: center;
+        }
+
+        .book .para1 .para-book{
+            font-size: 22px;
+            color: black;
+            font-family: 'roboto';
+            text-align: center;
+        }
+
+        .journals .para .para-solution{
+            font-size: 16px;
+            color: #4d4d4d;
+            text-align: center;
+        }
+        .book .para1 .para-booksolution{
+            font-size: 16px;
+            color: #4d4d4d;
+            text-align: center;
+        }
+
+        /* program */
+        .program{
+            background-image: url('Group-1.jpg');
+            background-size: cover; 
+            background-repeat: no-repeat; 
+            padding: 40px 0; 
+        }
+        .program-img {
+            display: flex; 
+            justify-content: center; 
+            align-items: center; 
+            height: 100%; 
+        }
+        .program-img img {
+            width: 200px; 
+            height: 200px;
+        }
+      
+        .custom-btn{
+            width: 150px;
+            border-radius: 30px !important; 
+            overflow: hidden; 
+            font-weight: bold;
+            font-family: "Poppins", sans-serif;
+          
+        }
+
+        .publishing-solution1 h1{
+            text-align: center;
+            font-family: 'roboto';
+
+            
+        }
+       
+        .publishing-solution1 p{
+            margin-left:320px;
+            font-family: 'roboto';
+
+            
+        }
+       
+        .modal-custom {
+            width: 200px; 
+            max-width: 100%; 
+        }
+        
+        .modal-custom .modal-content {
+            height: 400px; 
+        }
+        .academic a {
+            text-decoration: none; 
+            color: inherit; 
+            display: block; 
+        }
+        
+        
+      
+       
+
+                
